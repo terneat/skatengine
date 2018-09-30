@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SkatGameWindow</class>
+ <widget class="QWidget" name="SkatGameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1250</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1250</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Assyrian</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>-- Scaten v1.0 -- Playing</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../pics.qrc">
+    <normaloff>:/cardPics/kreuzbube</normaloff>:/cardPics/kreuzbube</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(100,100,100);</string>
+  </property>
+  <widget class="QGraphicsView" name="mycardsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>360</y>
+     <width>1250</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="cursor" stdset="0">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="dragMode">
+    <enum>QGraphicsView::NoDrag</enum>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="skatView">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>0</y>
+     <width>1250</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>270</y>
+     <width>189</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Assyrian</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(200, 200, 200);</string>
+   </property>
+   <property name="text">
+    <string>Verlassen</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../pics.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>exitButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SkatGameWindow</receiver>
+   <slot>exitGame()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>95</x>
+     <y>86</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>102</x>
+     <y>89</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>exitloop()</slot>
+  <slot>exitGame()</slot>
+ </slots>
+</ui>

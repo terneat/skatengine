@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/cardPics">
+        <file alias="herz10">pics/herz_10.jpg</file>
+        <file alias="herz7">pics/herz_7.jpg</file>
+        <file alias="herz8">pics/herz_8.jpg</file>
+        <file alias="herz9">pics/herz_9.jpg</file>
+        <file alias="herzass">pics/herz_ass.jpg</file>
+        <file alias="herzbube">pics/herz_bube.jpg</file>
+        <file alias="karo9">pics/karo_9.jpg</file>
+        <file alias="karoass">pics/karo_ass.jpg</file>
+        <file alias="karobube">pics/karo_bube.jpg</file>
+        <file alias="karodame">pics/karo_dame.jpg</file>
+        <file alias="karokoenig">pics/karo_koenig.jpg</file>
+        <file alias="kreuz10">pics/kreuz_10.jpg</file>
+        <file alias="herzdame">pics/herz_dame.jpg</file>
+        <file alias="herzkoenig">pics/herz_koenig.jpg</file>
+        <file alias="karo10">pics/karo_10.jpg</file>
+        <file alias="karo7">pics/karo_7.jpg</file>
+        <file alias="karo8">pics/karo_8.jpg</file>
+        <file alias="kreuz7">pics/kreuz_7.jpg</file>
+        <file alias="kreuz8">pics/kreuz_8.jpg</file>
+        <file alias="kreuz9">pics/kreuz_9.jpg</file>
+        <file alias="kreuzass">pics/kreuz_ass.jpg</file>
+        <file alias="kreuzbube">pics/kreuz_bube.jpg</file>
+        <file alias="kreuzdame">pics/kreuz_dame.jpg</file>
+        <file alias="kreuzkoenig">pics/kreuz_koenig.jpg</file>
+        <file alias="pik10">pics/pik_10.jpg</file>
+        <file alias="pik7">pics/pik_7.jpg</file>
+        <file alias="pik8">pics/pik_8.jpg</file>
+        <file alias="pik9">pics/pik_9.jpg</file>
+        <file alias="pikass">pics/pik_ass.jpg</file>
+        <file alias="pikbube">pics/pik_bube.jpg</file>
+        <file alias="pikdame">pics/pik_dame.jpg</file>
+        <file alias="pikkoenig">pics/pik_koenig.jpg</file>
+        <file alias="back">pics/back.jpg</file>
+    </qresource>
+</RCC>
