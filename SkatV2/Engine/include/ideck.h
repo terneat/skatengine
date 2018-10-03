@@ -17,9 +17,9 @@ protected:
 public:
 
     IDeck():cards(0), randomNumberGenerator(new randgen){}
-    virtual ~IDeck(){}
+    virtual ~IDeck(){delete randgen;}
     virtual void shuffle()=0;
-    virtual std::vector<cardGame::Card*> getCards(int, int) const = 0;
+    virtual std::vector<cardGame::Card*> getCards(int from, int to) const = 0;
 
 };
 

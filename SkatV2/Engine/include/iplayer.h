@@ -4,14 +4,11 @@
 #include <string>
 #include <vector>
 #include <Engine/include/card.h>
+#include <Engine/include/skatgamesetup.h>
+#include <Engine/include/skatgameresult.h>
 
 namespace cardGame{
     class IPlayer{
-    private:
-        //#ifdef UNIT_TEST
-        friend class IPlayerTest_protectedmethods_Test;
-
-        //#endif
 
     protected:
         int Id;
@@ -26,6 +23,9 @@ namespace cardGame{
         virtual ~IPlayer();
 
         void receiveNewCards(std::vector<cardGame::Card*>);
+
+        virtual cardGame::Card* playCard(skat::GameSetup setup, skat::GameResult result) = 0;
+        virtual bool makeBid(int lastBid, skat::GameSetup setup) = 0;
 
     };
 
