@@ -10,6 +10,6 @@ using namespace cardGame;
 TEST_F(IPlayerTest, protectedmethods) {
 	
     IPlayer player1(1, "TestPlayer");
-    player1.cardsPlayed = {true, false};
+
   
 }

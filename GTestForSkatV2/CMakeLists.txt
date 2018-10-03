@@ -17,7 +17,6 @@ include_directories(../SkatV2)
 #source files
 set(SOURCES src/main.cpp
             testMethods/cardTests.cpp
-            testMethods/codew.cpp
             testClasses/ExplTest.cpp
             testClasses/skatdecktest.cpp
             testClasses/iplayertest.cpp

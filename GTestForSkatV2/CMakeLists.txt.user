@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 3.5.1, 2018-09-27T22:48:43. -->
+<!-- Written by QtCreator 3.5.1, 2018-10-03T08:41:06. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -157,7 +157,7 @@
      <value type="int">14</value>
     </valuelist>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguation.Title">runTests</value>
-    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments">--gtest_filter=IPlayer*</value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments">--gtest_filter=*</value>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory"></value>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
