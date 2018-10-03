@@ -11,8 +11,7 @@ SOURCES += \
     Engine/src/skatgamesetup.cpp \
     Engine/src/iplayer.cpp \
     Engine/src/gameinitiator.cpp \
-    Engine/src/resultcollector.cpp \
-    Player/src/stub.cpp
+    Engine/src/resultcollector.cpp
 
 HEADERS += \
     Engine/include/card.h \

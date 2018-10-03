@@ -9,23 +9,17 @@
 
 #include <Engine/include/iplayer.h>
 
-namespace cardGame{
-
-    namespace skat{
-
-        class StubPlayer : public IPlayer
+        class StubPlayer : public cardGame::IPlayer
         {
 
         public:
             StubPlayer(int s_Id, std::string s_name);
             virtual ~StubPlayer();
 
-            virtual cardGame::Card* playCard(skat::GameSetup setup, skat::GameResult result);
-            virtual bool makeBid(int lastBid, skat::GameSetup setup);
+            virtual cardGame::Card* playCard(cardGame::skat::GameSetup setup, cardGame::skat::GameResult result);
+            virtual bool makeBid(int lastBid, cardGame::skat::GameSetup setup);
         };
 
-        }
-    }
 
 #endif // STUB_H
 

@@ -12,13 +12,13 @@ namespace cardGame{
 
         class GameInitiator
         {
-            std::vector<cardGame::IPlayer* const> players;
+            std::vector<cardGame::IPlayer*> players;
             int dealer;
             cardGame::IDeck* deck;
 
         public:
 
-            GameInitiator(IPlayer* player1, IPlayer* player2, IPlayer* player3, int_dealer, IDeck* s_deck);
+            GameInitiator(IPlayer* player1, IPlayer* player2, IPlayer* player3, int s_dealer, IDeck* s_deck);
             ~GameInitiator();
         };
 
